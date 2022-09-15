@@ -38,6 +38,7 @@
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/project.js"></script>
 </head>
 
 <body>
@@ -50,11 +51,9 @@
 
                 <div class="row">
 
-                    <div class="col-lg-8">
-                        <h2 class="portfolio-title">
-                            갤러리
-                        </h2>
-                        <div class="owl-carousel portfolio-details-carousel">
+                    <div class="col-lg-8" id="test">
+                        <h2 class="portfolio-title"></h2>
+                        <div class="owl-carousel portfolio-details-carousel d-none gallery">
                             <img src="./img/portfolio/ptg/20210512_142243.png"
                                 style="width: 100%; height: initial; margin: auto" class="img-fluid" alt="">
                             <img src="./img/portfolio/ptg/20210512_142304.png"
@@ -65,42 +64,146 @@
                                 style="width: 100%; height: initial; margin: auto" class="img-fluid" alt="">
                             <img src="./img/portfolio/ptg/20210512_143116.png"
                                 style="width: 100%; height: initial; margin: auto" class="img-fluid" alt="">
+                        </div>
 
+                        <div class="owl-carousel portfolio-details-carousel d-none lotto">
+                            <img src="./img/portfolio/lotto/Screenshot_1620035396.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/lotto/Screenshot_1620035401.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/lotto/Screenshot_1620035499.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/lotto/Screenshot_1620035505.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/lotto/Screenshot_1620035523.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="owl-carousel portfolio-details-carousel d-none polaroid">
+                            <img src="./img/portfolio/polaroid/Screenshot_1620098722.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/polaroid/Screenshot_1620098757.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/polaroid/Screenshot_1620098779.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/polaroid/Screenshot_1620098792.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="owl-carousel portfolio-details-carousel d-none IyouMarket">
+                            <img src="./img/portfolio/iyoumarket/iyoumarket1.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/iyoumarket/iyoumarket2.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/iyoumarket/iyoumarket3.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/iyoumarket/iyoumarket4.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/iyoumarket/iyoumarket5.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/iyoumarket/iyoumarket6.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/iyoumarket/iyoumarket7.png"
+                                style="width: 70%; height: initial; margin: auto" class="img-fluid" alt="">
                         </div>
                     </div>
 
-                    <div class="col-lg-4 portfolio-info">
+                    <div class="col-lg-4 portfolio-info d-none gallery">
                         <h3>프로젝트 정보</h3>
                         <ul>
                             <li>
-                                <strong>분류</strong>:
-                                <?php echo $_GET["category"]; ?>
+                                <strong>분류</strong>: Web
                             </li>
                             <li>
-                                <strong>프레임워크</strong>:
-                                Spring
+                                <strong>프레임워크</strong>: Spring
                             </li>
                             <li>
                                 <strong>GitHub</strong>:
-
-                                {{-- 갤러리 --}}
-
                                 <a href="https://github.com/sanghyek223/SpringGallery"
                                     target="_blank">https://github.com/sanghyek223/SpringGallery</a>
-                            </li>
-                            <li>
-                                <strong>URL</strong>:
-                                {{-- 갤러리 --}}
-
-                                <a href="http://ptgk.tk" target="_blank">http://ptgk.tk</a>
                             </li>
                         </ul>
 
                         <p>
-                            {{-- 갤러리 --}}
                             스프링 프레임 워크로 제작된 갤러리 사이트 입니다. 기능은 단순 CRUD와 카카오 로그인 으로 구성되어있고, 관리자 페이지에서 사진 관리 프로필
                             관리 배너관리 슬라이드 이미지 등 관리를 할 수 있으며, 학원 수료 후 처음으로 만들어본 토이 프로젝트 입니다, 사이트를 제작하면서 AWS 를
                             이용한 호스팅과 도메인 연결을 하면서 AWS를 조금 이나마 사용할줄 알게되고, 스프링 구조를 다시한번 복습 할수 있었던 토이 프로젝트 입니다.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 portfolio-info d-none lotto">
+                        <h3>프로젝트 정보</h3>
+                        <ul>
+                            <li>
+                                <strong>분류</strong>: App
+                            </li>
+                            <li>
+                                <strong>프레임워크</strong>: Laravel & Flutter
+                            </li>
+                            <li>
+                                <strong>GitHub</strong>:
+                                <a href="https://github.com/sanghyek223/LottoApp"
+                                    target="_blank">https://github.com/sanghyek223/LottoApp</a>
+                            </li>
+                            <li>
+                                <strong>URL</strong>:
+                                <a href="https://play.google.com/store/apps/details?id=com.sanghyeklotto.flutter_lotto_app"
+                                    target="_blank">구글 플레이스토어 바로가기(로또 앱)</a>
+                            </li>
+                        </ul>
+
+                        <p>
+                            라라벨을 백엔드 서버로 이용하고 플러터로 UI를 만들어 직접 플레이스토어에 배포해본 로또 번호 추천앱 입니다. 백엔드 서버는 AWS에 호스팅
+                            하였으며 DB에 저장된 정보를 api를 통해 앱에 정보를 제공하고 있습니다. 만들면서 구글 애드몹을 이용한 광고도 붙여 보았고 로또 가 매주
+                            토요일 추첨을 하게되면 앱에서도 새 당첨정보를 제공하여야 하는데 이부분은 크론탭을 이용하여 매주 토요일 오후 9:05분에 새 당첨정보를 가져와
+                            DB에 저장하게 하여 당첨정보를 계속적으로 업데이트 하게 구현 하였습니다.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 portfolio-info d-none polaroid">
+                        <h3>프로젝트 정보</h3>
+                        <ul>
+                            <li>
+                                <strong>분류</strong>: App
+                            </li>
+                            <li>
+                                <strong>프레임워크</strong>: Flutter
+                            </li>
+                            <li>
+                                <strong>GitHub</strong>:
+                                <a href="https://github.com/sanghyek223/Polaroid_photo"
+                                    target="_blank">https://github.com/sanghyek223/Polaroid_photo</a>
+                            </li>
+                            <li>
+                                <strong>URL</strong>:
+                                <a href="https://play.google.com/store/apps/details?id=com.sanghyekpolaroid.polaroid_photo"
+                                    target="_blank">구글 플레이스토어 바로가기(폴라로이드 앱)</a>
+                            </li>
+                        </ul>
+
+                        <p>
+                            플러터로 구현한 폴라로이드 사진 앱 입니다. Provider 패턴을 공부하면서 만들게 되었고, 내 사진첩에 있는사진을 불러와 위젯만 보면
+                            폴라로이드 사진을 찍은것같은 화면을 구현하였습니다. 또한 위젯 캡쳐를 사용해 캡쳐된 모습이 폴라로이드 사진을 인화한 것 같은 모습이 되게
+                            하였으며, 갤러리에 캡쳐이미지를 저장할 수 있게 구현하였고 구글 폰트를 사용해 여러 글씨체도 제공하고 배경색상도 변경 할 수 있는 폴라로이드
+                            어플을 구현하였습니다.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 portfolio-info d-none IyouMarket">
+                        <h3>프로젝트 정보</h3>
+                        <ul>
+                            <li>
+                                <strong>분류</strong>: App
+                            </li>
+                            <li>
+                                <strong>프레임워크</strong>: Laravel & Flutter
+                            </li>
+                        </ul>
+
+                        <p>
+                            스타트업 회사에서 중고거래 앱을 만들어 출시를 하였고 백엔드로는 Laravel 을 사용 UI는 플러터로 제작된 중고거래 플랫폼 입니다.
+                            내주변 5Km이내에 상품을 리스트화 시켜 보여주고 지도로 위치를 변경할 경우 해당 지도범위 5Km내 상품을 다시 찾아서 보여주게 됩니다.
+                            회원간의 채팅을 통한 거래를 할 수 있게 파이어베이스를 이용한 채팅을 구현 하였습니다
                         </p>
                     </div>
 
