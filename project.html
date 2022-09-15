@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Portfolio Details - Personal Bootstrap Template</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:url" content="http://www.asufi.tk/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./img/hero-bg.png" />
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:description" content="Developer Portfolio" />
+
+    <!-- Favicons -->
+    <link href="./img/favicon.png" rel="icon">
+    <link href="./img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="./vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="./vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="./vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <main id="main">
+
+        <!-- ======= Portfolio Details ======= -->
+        <section id="portfolio-details" class="portfolio-details">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row">
+
+                    <div class="col-lg-8">
+                        <h2 class="portfolio-title">
+                            갤러리
+                        </h2>
+                        <div class="owl-carousel portfolio-details-carousel">
+                            {{-- 갤러리 --}}
+                            <img src="./img/portfolio/ptg/20210512_142243.png"
+                                style="width: 100%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/ptg/20210512_142304.png"
+                                style="width: 100%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/ptg/20210512_142353.png"
+                                style="width: 100%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/ptg/20210512_142442.png"
+                                style="width: 100%; height: initial; margin: auto" class="img-fluid" alt="">
+                            <img src="./img/portfolio/ptg/20210512_143116.png"
+                                style="width: 100%; height: initial; margin: auto" class="img-fluid" alt="">
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 portfolio-info">
+                        <h3>프로젝트 정보</h3>
+                        <ul>
+                            <li>
+                                <strong>분류</strong>:
+                                <?php echo $_GET["category"]; ?>
+                            </li>
+                            <li>
+                                <strong>프레임워크</strong>:
+                                Spring
+                            </li>
+                            <li>
+                                <strong>GitHub</strong>:
+
+                                {{-- 갤러리 --}}
+
+                                <a href="https://github.com/sanghyek223/SpringGallery"
+                                    target="_blank">https://github.com/sanghyek223/SpringGallery</a>
+                            </li>
+                            <li>
+                                <strong>URL</strong>:
+                                {{-- 갤러리 --}}
+
+                                <a href="http://ptgk.tk" target="_blank">http://ptgk.tk</a>
+                            </li>
+                        </ul>
+
+                        <p>
+                            {{-- 갤러리 --}}
+                            스프링 프레임 워크로 제작된 갤러리 사이트 입니다. 기능은 단순 CRUD와 카카오 로그인 으로 구성되어있고, 관리자 페이지에서 사진 관리 프로필
+                            관리 배너관리 슬라이드 이미지 등 관리를 할 수 있으며, 학원 수료 후 처음으로 만들어본 토이 프로젝트 입니다, 사이트를 제작하면서 AWS 를
+                            이용한 호스팅과 도메인 연결을 하면서 AWS를 조금 이나마 사용할줄 알게되고, 스프링 구조를 다시한번 복습 할수 있었던 토이 프로젝트 입니다.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portfolio Details -->
+
+    </main>
+    <!-- End #main -->
+
+    <a href="#" class="back-to-top">
+        <i class="bx bx-up-arrow-alt"></i>
+    </a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="./vendor/php-email-form/validate.js"></script>
+    <script src="./vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="./vendor/counterup/counterup.min.js"></script>
+    <script src="./vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="./vendor/venobox/venobox.min.js"></script>
+    <script src="./vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="./vendor/typed.js/typed.min.js"></script>
+    <script src="./vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
