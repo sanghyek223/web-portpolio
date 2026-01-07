@@ -36,6 +36,13 @@
     <!-- Template Main CSS File -->
     <link href="./css/style.css" rel="stylesheet">
 
+    <style>
+        .portfolio-wrap > img {
+            width: 100%;
+            max-height: 135.93px;
+        }
+    </style>
+
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -81,9 +88,9 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
-            <h1>Dev Portfolio</h1>
-            <p>I'm <span class="typed"
-                    data-typed-items="Han Sang Hyek, Web Developer (Backend), Flutter Developer"></span></p>
+            <h1>Portfolio</h1>
+            <p>I'm <span class="typed" data-typed-items="Han Sang Hyek, Web Developer PHP/Laravel"></span></p>
+
             <div class="social-links">
                 <a href="https://github.com/sanghyek223" class="github"><i class="bx bxl-github"></i></a>
                 <a href="https://asufi.tistory.com" class="blog"><i class="bx bxl-blogger"></i></a>
@@ -99,7 +106,7 @@
 
                 <div class="section-title">
                     <h2>About</h2>
-                    <h6>PHP 개발자 한상혁 입니다.</h6>
+                    <h6>안녕하세요 웹개발자 한상혁 입니다.</h6>
                 </div>
 
                 <div class="row">
@@ -108,7 +115,7 @@
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content">
                         <br>
-                        <h3>Web Developer (Backend)</h3>
+                        <h3>Web Developer PHP/Laravel</h3>
 
                         <br>
                         <div class="row">
@@ -118,6 +125,7 @@
                                         <strong>Name:</strong>
                                         <span>한상혁</span>
                                     </li>
+
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
                                         <strong>GitHub:</strong>
@@ -125,6 +133,7 @@
                                             <a href="https://github.com/sanghyek223">https://github.com/sanghyek223</a>
                                         </span>
                                     </li>
+
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
                                         <strong>Blog:</strong>
@@ -132,6 +141,7 @@
                                             <a href="https://asufi.tistory.com">https://asufi.tistory.com</a>
                                         </span>
                                     </li>
+
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
                                         <strong>Email:</strong>
@@ -139,6 +149,7 @@
                                     </li>
                                 </ul>
                             </div>
+
                             <div class="col-lg-6">
                                 <ul>
                                     <li>
@@ -146,16 +157,19 @@
                                         <strong>Birthday:</strong>
                                         <span>1991-02-23</span>
                                     </li>
+
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
                                         <strong>Age:</strong>
                                         <span id="age"></span>
                                     </li>
+
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
                                         <strong>Career:</strong>
-                                        <span id="career"></span>
+                                        <span class="career"></span>
                                     </li>
+                                    
                                     <li>
                                         <i class="bi bi-chevron-right"></i>
                                         <strong>Phone:</strong>
@@ -169,11 +183,14 @@
 
                         <p>
                             <br> 
-                            PHP 개발자 한상혁 입니다. <br> 
-                            3년 7개월간 백엔드 개발자로 근무하였고 Laravel / Codeigniter / 그누보드 를 사용 해봤습니다. <br>
-                            주요 이력으로는 플랫폼 구축 / SNS 연동 / 결제시스템 구현 / 쿠폰 & 마일리지 및 포인트 / 실시간 예약 <br>
-                            등을 직접 개발하였습니다. 개발이 좋아서 이일을 택하게 되었고 <br>
-                            좋아하는 일을 하다보니 일 자체를 즐기며 좀더 많은 다양한 경험을 통해 성장하고 싶은 개발자 입니다.
+                            PHP 기반 백엔드 개발자 한상혁입니다.<br> 
+                            Laravel과 CodeIgniter 중심으로 약 <span class="career"></span>간 다양한 웹 서비스를 개발·운영해왔습니다.<br> 
+
+                            플랫폼 구축을 비롯해 결제 시스템, 예약 서비스, 쿠폰·마일리지, 관리자 시스템 등<br>
+                            실제 서비스에 필요한 핵심 기능을 구현 해왔으며 안정적인 운영을 고려한 개발을 중요하게 생각합니다.<br>
+
+                            개발 과정에서 요구사항을 정확히 구현하는 데 집중하며,<br>
+                            경험을 쌓아가며 꾸준히 성장해 나가고자 합니다.
                         </p>
                     </div>
                 </div>
@@ -192,56 +209,52 @@
 
                 <div class="row skills-content">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6">                        
                         <div class="progress">
-                            <span class="skill">HTML <i class="val">65%</i></span>
+                            <span class="skill">PHP <i class="val">70%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-
+                                          
                         <div class="progress">
-                            <span class="skill">CSS <i class="val">55%</i></span>
+                            <span class="skill">Laravel <i class="val">65%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="progress">
-                            <span class="skill">PHP <i class="val">75%</i></span>
+                            <span class="skill">JavaScript <i class="val">75%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="progress">
+                            <span class="skill">MySQL / MariaDB <i class="val">65%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="progress">
+                            <span class="skill">Git <i class="val">55%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div class="progress">
-                            <span class="skill">JavaScript <i class="val">70%</i></span>
+                            <span class="skill">Docker <i class="val">55%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-
-                        <!-- <div class="progress">
-                            <span class="skill">Java <i class="val">40%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div> -->
-
-                        <!-- <div class="progress">
-                            <span class="skill">Dart <i class="val">45%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div> -->
                     </div>
 
                 </div>
@@ -252,7 +265,6 @@
         <!-- ======= Resume Section ======= -->
         <section id="resume" class="resume">
             <div class="container" data-aos="fade-up">
-
                 <div class="section-title">
                     <h2>Resume</h2>
                     <p>경력과 이력</p>
@@ -266,11 +278,7 @@
                             <h4>웹 개발자 양성 과정 6 개월</h4>
                             <h5>2019/11 - 2020/4</h5>
                             <p>
-                                <em>
-                                    국비지원 과정을 배울 수 있는 계기가 생겨 신청을 하게 되었고 <br>
-                                    강남 그린컴퓨터 학원에서 약 6 개월간의 웹개발자 수업을 받으며 <br>
-                                    자바와 스프링에 대해서 배우게 되었습니다.
-                                </em>
+                                <em>국비지원 과정을 을통한 자바와 스프링 교육</em>
                             </p>
                         </div>
 
@@ -278,15 +286,7 @@
                             <h4>한국 체스게임</h4>
                             <h5>2020/6 - 2020/12</h5>
                             <p>
-                                <em>
-                                    <ul>
-                                        <li>ci 4 / 그누보드 사용</li>
-                                        <li>AWS / Docker 사용</li>
-                                        <li>코인거래소 유지보수</li>
-                                        <li>코인 배당금 지급 개발</li>
-                                        <li>회원 배당금 관리 페이지 제작</li>
-                                    </ul>
-                                </em>
+                                <em>Codeigniter / 그누보드를 사용한 거래소 사이트 AWS 와 Doker 학습</em>
                             </p>
                         </div>
 
@@ -294,15 +294,7 @@
                             <h4>와우리사이클</h4>
                             <h5>2021/1 - 2021/05/31</h5>
                             <p>
-                                <em>
-                                    <ul>
-                                        <li>laravel7 사용 (backend)</li>
-                                        <li>flutter 사용 (App)</li>
-                                        <li>AWS / firebase 사용</li>
-                                        <li>중고거래앱 개발</li>
-                                        <li>위치 서비스 및 채팅기능 구현</li>
-                                    </ul>
-                                </em>
+                                <em>Laravel 및 Flutter 사용한 중고거래앱 개발 (위치 서비스 및 Firebase를 이용한 채팅 구현)</em>
                             </p>
                         </div>
 
@@ -310,36 +302,7 @@
                             <h4>고니랩</h4>
                             <h5>2021/6 - 2022/10/07</h5>
                             <p>
-                                <em>
-                                    <!-- <p><a href="https://digitalnow.co.kr">디지털나우</a></p> -->
-                                    <p>디지털나우</p>
-                                    <ul>
-                                        <li>ci 2 / php 4 사용</li>
-                                        <li>풀빌라 & 펜션 전용 PMS 시스템 유지보수 및 신규 개발 담당</li>
-                                        <li>예약 관리 및 신규 예약 스킨 개발</li>
-                                        <li>모바일 페이지 개발</li>
-                                    </ul>
-
-                                    <!-- <p><a href="https://popup.digitalnowplus.com">팝업 시스템</a></p> -->
-                                    <p>팝업 시스템</p>
-                                    <ul>
-                                        <li>라라벨 8 / php 7 사용</li>
-                                        <li>슬라이드 팝업 / 이미지 팝업 / 텍스트 팝업 / 텍스트 + 이미지 팝업 구현</li>
-                                        <li>일주일간 보지않기 기능 구현</li>
-                                        <li>팝업 위치조절 & 기간 노출 기능 구현</li>
-                                        <li>업체별 팝업 최대 갯수 조절 기능</li>
-                                    </ul>
-
-                                    <p><a href="https://butlerlounge.com">버틀러라운지</a></p>
-                                    <ul>
-                                        <li>라라벨 8 / php 7 사용</li>
-                                        <li>풀빌라 예약 사이트 플랫폼 개발</li>
-                                        <li>로그인 기능 구현 / 네이버,카카오,페이스북 SNS 연동</li>
-                                        <li>결제 시스템 구현</li>
-                                        <li>예약 스킨 개발</li>
-                                        <li>쿠폰 & 마일리지 기능</li>
-                                    </ul>
-                                </em>
+                                <em>Codeigniter / Laravel 을 사용한 예약 시스템 구현 및 예약 플랫폼 <a href="https://butlerlounge.com">버틀러라운지</a> 개발 (예약, 결제, 개발·마일리지, 소셜로그인 구현)</em>
                             </p>
                         </div>
 
@@ -347,18 +310,7 @@
                             <h4>이아이넷</h4>
                             <h5>2022/11/01 - 2023/02/10</h5>
                             <p>
-                                <em>
-                                    <p>기업 복지몰 사이트</p>
-                                    <ul>
-                                        <li>라라벨 9 / ubuntu / mysql 사용 / 1인 프로젝트</li>
-                                        <li>신규 개발 프로젝트로 기업 폐쇄몰 사이트개발 판매상품: 숙박없소(펜션, 풀빌라)</li>
-                                        <li>사이트 가입시 기업 코드 인증을통한 회원가입 및 sns 가입 구현</li>
-                                        <li>성수기 준성수기 / 할인가격 / 고정가격 / 공휴일 / 요일별 가격에대한 가격로직 구현</li>
-                                        <li>실시간 예약 처리 구현</li>
-                                        <li>예약 문자 발송 구현</li>
-                                        <li>라라벨 스케쥴러를 통한 미입금 자동 취소 로직 구현</li>
-                                    </ul>
-                                </em>
+                                <em>Laravel 이용한 기업 복지몰 사이트로 예약 기능 구현</em>
                             </p>
                         </div>
 
@@ -367,58 +319,8 @@
                             <h5>2023/3 ~</h5>
                             <p>
                                 <em>
-                                    <p>
-                                        - 소화기내시경학회 (유지보수)
-                                        - 대한가정의학회 (유지보수)
-                                        - 자동차공학회 (유지보수)
-                                        - 신장학회 (유지보수)
-                                        - KDDW (유지보수)
-                                        - SIDDS (유지보수)
-                                        - 태성 (신규 개발 - laravel)
-                                        - APCDM (신규 개발 - laravel)
-                                        - 대한최소침습척추학회 (신규 개발 - laravel)
-                                        - 대한심장혈과흉부외과학회 (신규 개발 - laravel)
-                                        - WONCA (신규 개발 - 레거시 php 5)
-                                    </p>
-                                    <ul>
-                                        <li>신규 개발 및 유지보수</li>
-                                    </ul>
-                                    
-                                    <p>
-                                        <a href="https://www.etsne.com/">태성포탈</a>
-                                        <a href="https://www.tsne.co.kr/">태성</a>
-                                    </p>
-                                    <ul>
-                                        <li>laravel 사용</li>
-                                        <li>외부 보안점검을 처음 검사 받아본 사이트</li>
-                                        <li>XSS 공격 차단용 코드 추가</li>
-                                    </ul>
-
-                                    <p><a href="https://butlerlounge.com">버틀러라운지</a></p>
-                                    <ul>
-                                        <li>이전 회사에서 외주개발 의뢰</li>
-                                        <li>국내 / 일본 / 휴양지 브랜드 분리</li>
-                                        <li>각 브랜드 페이지별 개별 독점 브랜드 노출</li>
-                                        <li>관리자 페이지에서 노출관리 기능 개발 후 리스트에 노출순서 적용</li>
-                                        <li>컬렉션 페이지 생성</li>
-                                    </ul>
-
-                                    <p><a href="http://res.asufi.kr/">숙박 예약 시스템 (라이브 주소 아닌 개인 NAS URL 입니다) </a></p>
-                                    <ul>
-                                        <li>숙박 예약 시스템</li>
-                                        <li>이전 회사 경험으로 개인적으로 제작</li>
-                                        <li>토스 테스트 결제모듈 적용</li>
-                                        <li>이력서에 계정정보 포함</li>
-                                    </ul>
-
-                                    <p><a href="http://re.asufi.kr/">부동산 매물관리 시스템 (라이브 주소 아닌 개인 NAS URL 입니다) </a></p>
-                                    <ul>
-                                        <li>지인을 통한 부동산 매물관리시스템 제작</li>
-                                        <li>매물 정보 및 손님관리 및 스케쥴 관리 기능</li>
-                                        <li>네이버 지도 api 사용</li>
-                                        <li>부트스트랩 사용</li>
-                                        <li>이력서에 계정정보 포함</li>
-                                    </ul>
+                                    학회/병원 사이트 위주로 개발·운영하며 레거시 코드 Larvel 로 개편 및 결제, 행사접수, 메일및 SMS 발송, 회비관리 등을 구현<br>
+                                    API 연결을 통한 메일발송 시스템 개발
                                 </em>
                             </p>
                         </div>
@@ -430,13 +332,13 @@
         <!-- End Resume Section -->
 
 
-        <!-- ======= Portfolio Section ======= -->
+        <!-- ======= Project Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Portfolio</h2>
-                    <p>Portfolio</p>
+                    <h2>Project</h2>
+                    <p>Project</p>
                 </div>
 
                 <div class="row">
@@ -450,21 +352,6 @@
                 </div>
 
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="./img/portfolio/PTG.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Gallery</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="./project.html?name=gallery"
-                                        data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                                        title="Portfolio Details"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
@@ -491,22 +378,6 @@
                                     <a href="./project.html?name=butlerlounge"
                                         data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
                                         title="Portfolio Details"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="./img/portfolio/popupsystem.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>popup system</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="./project.html?name=popupsystem"
-                                        data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                                        title="Portfolio Details"><i class="bx bx-link"></i>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -639,7 +510,7 @@
 
             months += 1;
 
-            $('#career').html(`${years}년 ${months}개월`);
+            $('.career').html(`${years}년 ${months}개월`);
         }
 
         $(function() {
