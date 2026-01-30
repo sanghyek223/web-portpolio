@@ -11,5 +11,9 @@ $(function () {
         case 'reservation':
             $('.reservation').removeClass('d-none');
             break;
+
+        case 'memory':
+            $('.memory').removeClass('d-none');
+            break;
     }
 });
